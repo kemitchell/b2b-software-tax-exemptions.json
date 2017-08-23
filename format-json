@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+var fs = require('fs')
+var encounteredError = false
+
+process.argv
+  .slice(2)
+  .forEach(function (file) {
+    console.log('Formatting ' + file)
+    fs.readFile(file, 'utf8', function (error, read) {
+      if (error) {
+        encounteredError = true
+        console.error(file + ': ' + error)
+      }
+      var parsed
+      try {
+        parsed = JSON.parse(read)
+      } catch (error) {
+        encounteredError = true
+        console.error(file + ': ' + error)
+        return
+      }
+      var formatted = JSON.stringify(parsed, null, 2) + '\n'
+      if (read !== formatted) {
+        fs.writeFile(file, formatted, function (error) {
+          if (error) {
+            encounteredError = true
+            console.error(file + ': ' + error)
+          }
+        })
+      }
+    })
+  })
+
+process.on('exit', function () {
+  process.exit(encounteredError ? 1 : 0)
+})

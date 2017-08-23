@@ -1,0 +1,120 @@
+{
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "title": {
+      "type": "string"
+    },
+    "states": {
+      "type": "object",
+      "patternProperties": {
+        ".+": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "salesTax": {
+                  "const": false
+                }
+              },
+              "required": [
+                "salesTax"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "salesTax": {
+                  "const": true
+                },
+                "categories": {
+                  "type": "object",
+                  "properties": {
+                    "canned": {
+                      "type": "object",
+                      "properties": {
+                        "tangible": {
+                          "enum": [
+                            "taxable",
+                            "exempt"
+                          ]
+                        },
+                        "download": {
+                          "enum": [
+                            "taxable",
+                            "exempt"
+                          ]
+                        },
+                        "customization": {
+                          "enum": [
+                            "taxable",
+                            "exempt"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "tangible",
+                        "download",
+                        "customization"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "custom": {
+                      "type": "object",
+                      "properties": {
+                        "tangible": {
+                          "enum": [
+                            "taxable",
+                            "exempt"
+                          ]
+                        },
+                        "download": {
+                          "enum": [
+                            "taxable",
+                            "exempt"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "tangible",
+                        "download"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "canned",
+                    "custom"
+                  ]
+                }
+              },
+              "required": [
+                "salesTax",
+                "categories"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "require": [
+    "date",
+    "source",
+    "url",
+    "title",
+    "states"
+  ]
+}

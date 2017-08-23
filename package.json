@@ -1,0 +1,27 @@
+{
+  "name": "b2b-software-tax-exemptions",
+  "version": "0.0.0",
+  "description": "structured data about US business-to-business software sales tax exemptions",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/b2b-software-tax-exemptions.json",
+  "license": "CC0-1.0",
+  "scripts": {
+    "test": "ajv validate -s schema.json -d index.json",
+    "precommit": "lint-staged"
+  },
+  "files": [
+    "index.json",
+    "schema.json"
+  ],
+  "devDependencies": {
+    "ajv": "^5.2.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.3"
+  },
+  "lint-staged": {
+    "*.json": [
+      "format-json",
+      "git add"
+    ]
+  }
+}

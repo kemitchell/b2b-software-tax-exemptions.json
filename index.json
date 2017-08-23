@@ -1,0 +1,653 @@
+{
+  "date": "2013-01-14",
+  "source": "Tax Foundation",
+  "url": "https://taxfoundation.org/states-sales-taxes-software/",
+  "title": "Exemptions for Business-to-Business Transactions on Software",
+  "states": {
+    "AK": {
+      "salesTax": false
+    },
+    "AL": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "AR": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "AZ": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "CA": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "CO": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "CT": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "DC": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "DE": {
+      "salesTax": false
+    },
+    "FL": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "GA": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "HI": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "IA": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "IL": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "IN": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "KS": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "KY": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "LA": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "MA": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "MD": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "ME": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "MI": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "MN": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "MO": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "MS": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "MT": {
+      "salesTax": false
+    },
+    "NC": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "ND": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "NE": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "NH": {
+      "salesTax": false
+    },
+    "NJ": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "NM": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "NV": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "NY": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "OH": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "taxable"
+        }
+      }
+    },
+    "OK": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "OR": {
+      "salesTax": false
+    },
+    "PA": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "RI": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "SC": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "exempt"
+        }
+      }
+    },
+    "SD": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "TN": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "TX": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "UT": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "VA": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "exempt",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "VT": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "WA": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "exempt"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "WI": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    },
+    "WV": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "taxable",
+          "download": "taxable"
+        }
+      }
+    },
+    "WY": {
+      "salesTax": true,
+      "categories": {
+        "canned": {
+          "tangible": "taxable",
+          "download": "taxable",
+          "customization": "taxable"
+        },
+        "custom": {
+          "tangible": "exempt",
+          "download": "exempt"
+        }
+      }
+    }
+  }
+}
